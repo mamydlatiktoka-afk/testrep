@@ -5,6 +5,12 @@
 ');
     define('DEEPSEEK_KEY', getenv('DEEPSEEK_KEY') ?: 'sk-b0a4ceb847fd4eea998a550ae71bcb5d');
 
+// Проверка наличия ключей
+if (BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE' || DEEPSEEK_KEY === 'YOUR_DEEPSEEK_KEY_HERE') {
+    error_log("❌ ОШИБКА: Не настроены ключи BOT_TOKEN и DEEPSEEK_KEY");
+    exit;
+}
+
 // Логирование ошибок
     ini_set('display_errors', 0);
     ini_set('log_errors', 1);
