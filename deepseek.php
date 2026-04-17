@@ -13,7 +13,7 @@
 
         $headers = [
             'Content-Type: application/json',
-            'Authorization: Bearer ' . DEEPSEEK_KEY
+            'Authorization: Bearer ' . 'sk-b0a4ceb847fd4eea998a550ae71bcb5d'
         ];
 
         $ch = curl_init();
