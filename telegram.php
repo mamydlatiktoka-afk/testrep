@@ -1,6 +1,7 @@
 <?php
     function sendMessage($chat_id, $text) {
-        $url = "https://api.telegram.org/bot" . BOT_TOKEN . "/sendMessage";
+        $url = "https://api.telegram.org/bot" . 8717098765:AAG0Wi0VSk3Fm1pi8xPz2018SXbx_hIH87M
+ . "/sendMessage";
 
         $data = [
             'chat_id' => $chat_id,
